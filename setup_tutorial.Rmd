@@ -263,7 +263,7 @@ you choose the file and provide a description of the change and then hit commit.
 The first time you make a commit for a project, evernything is new, so everything 
 will need a commit.
 
-first commit
+start the first commit
 
 ```{r, echo=FALSE}
 knitr::include_graphics("img/initial_commit.png")
@@ -275,13 +275,13 @@ staging
 knitr::include_graphics("img/staging.png")
 ```
 
-commit message
+add a commit message
 
 ```{r, echo=FALSE}
 knitr::include_graphics("img/commit_message.png")
 ```
 
-commit done
+the commit is done when you see this
 
 ```{r, echo=FALSE}
 knitr::include_graphics("img/commit_done.png")
@@ -290,3 +290,34 @@ knitr::include_graphics("img/commit_done.png")
 
 From now on you would just add commits whenever you think is sensible. e.g.,
 end of everyday or big chunk of stuff. But fairly frequently.
+
+
+## 6) a special mention for using brms / stan / cmdstan ##
+
+The package installation routine for the vast majority of R packages is as 
+was detailed above in section 5.
+
+However, if you want to use brms to build Bayesian regression models, which is
+a front-end for STAN, then things are a little more complicated and seemingly
+change rather frequently.
+
+Speak to Rich for example workflows. But the key things to keep in mind are that
+to work with brms / stan, several additional steps are required.
+
+1) The toolchain needs configuring. Yep, I wish I knew what that was. It *might*
+be the case that for modern macs with a recent OS, things are all good to start 
+with. This has been my expeirence with macs supplied by ETHZ.
+
+2) As of the summer of 2023, I use cmdstand to build Bayesian models. But I do
+this through brms with the "backend" option set to cmdstan.
+
+What this means is that brms and cmdstan need to be installed and the settigs 
+adjusted approproiately. 
+
+Anyway, speak to Rich, as he has a bunch of other setup files that deal with 
+the toolchain and cmdstand specifically.
+
+The good news is that once you have things setup, you can just load cmdstand and 
+brms like other packages and away you go. That is, you only need to setup the
+toolchain and cmdstan once on your machine. After that you just load it in an 
+.Rproj like any other package.
