@@ -268,3 +268,25 @@ first commit
 ```{r, echo=FALSE}
 knitr::include_graphics("img/initial_commit.png")
 ```
+
+staging
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/staging.png")
+```
+
+commit message
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/commit_message.png")
+```
+
+commit done
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/commit_done.png")
+```
+
+
+From now on you would just add commits whenever you think is sensible. e.g.,
+end of everyday or big chunk of stuff. But fairly frequently.
