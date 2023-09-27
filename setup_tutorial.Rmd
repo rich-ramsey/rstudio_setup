@@ -57,7 +57,7 @@ https://www.tidyverse.org/blog/2017/12/workflow-vs-script/
 
 To create a new project:
 
-open R Studio, then hit: File &rarr New Project.
+open R Studio, then hit: File &rarr; New Project.
 
 ```{r, echo=FALSE}
 knitr::include_graphics("img/new_proj.png")
@@ -179,7 +179,7 @@ And a cheat sheet here: https://rmarkdown.rstudio.com/lesson-15.HTML
 And here: https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown-2.0.pdf
 
 
-To create a new R Markdown file, click 'file' &rarr 'New File' &rarr 'R Markdown'
+To create a new R Markdown file, click 'file' &rarr; 'New File' &rarr; 'R Markdown'
 and give it a name e.g., wrangle or plot or model. Something that is functionally
 useful.
 
